@@ -1,12 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-int main(void) {
+/**
+ *main - Entry point
+ *Description: 'Print alphabets lowercase'
+ *Return: Always 0
+ */
+int main(void)
+{
 	char(x) = 'a';
 
-	while (x <= 'z') {
+	while (x <= 'z')
+	{
 
-	if (x != 'q' && x != 'e') {
+	if (x != 'q' && x != 'e')
+	{
 		putchar(x);
 return (0);
 	}
