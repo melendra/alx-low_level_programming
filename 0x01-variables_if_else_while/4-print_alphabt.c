@@ -1,26 +1,17 @@
 #include <stdio.h>
 /**
- *main - Entry point
- *Description: 'Print alphabets lowercase'
- *Return: Always 0
+ * main - start of program
+ *
+ * Return: nothing if successful
  */
+
 int main(void)
 {
-	char(x) = 'a';
+	char c;
 
-	while (x <= 'z')
-	{
-
-	if (x != 'q' && x != 'e')
-	{
-		putchar(x);
-return (0);
-	}
-	x++;
-
-	}
-
+	for (c = 'a'; c <= 'z'; c++)
+		if (c != 'e' && c != 'q')
+			putchar(c);
 	putchar('\n');
-
 	return (0);
 }

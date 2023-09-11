@@ -1,15 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
+/**
+ * main - start of program
+ *
+ * Return: nothing if successful
+ */
 
-int main (void)
+int main(void)
 {
-	int (x) = 0;
+    int x = 0;
+    while (x < 10)
+    {
+        printf("%d", x);
+        x++;
+    }
 
-	while (x < 10)
-	{
-		printf( "%d\n", x);
-		x++;
-	}
-
-	return (0);
+    putchar('\n');
+    return (0);
+    
 }
