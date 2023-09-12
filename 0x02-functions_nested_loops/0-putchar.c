@@ -1,11 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - print _putchar
- * is written by kedibone
+ * main - start of program
  *
- * return: 0
- *
+ * Return: nothing if successful
  */
 int main(void)
 {
