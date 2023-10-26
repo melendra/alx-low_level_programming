@@ -6,19 +6,19 @@
  */
 void print_binary(unsigned long int n)
 {
-	int leona, Sis_hoffmann = 0;
+	int jazzi, beautiful = 0;
 
 	unsigned long int new;
 
-	for (leona = 63; leona >= 0; leona--)
+	for (jazzi = 63; jazzi >= 0; jazzi--)
+
 	{
-		new = n >> leona;
+		new = n >> jazzi;
 
 		if (new & 1)
 		{
 			_putchar('1');
-
-			Sis_hoffmann++;
+			beautiful++;
 		}
 		else if (new)
 			_putchar('0');
